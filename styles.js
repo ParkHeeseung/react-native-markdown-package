@@ -1,4 +1,3 @@
-
 import {Dimensions, StyleSheet, Platform} from 'react-native';
 
 export default StyleSheet.create({
@@ -38,7 +37,7 @@ export default StyleSheet.create({
     backgroundColor: '#DDDDDD',
   },
   del: {
-    textDecorationLine: 'line-through',
+    textDecorationLine: 'underline',
     textDecorationStyle: 'solid'
   },
   em: {
